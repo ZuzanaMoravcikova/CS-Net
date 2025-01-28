@@ -21,8 +21,8 @@ from utils.losses import WeightedCrossEntropyLoss, DiceLoss
 from utils.visualize import init_visdom_line, update_lines
 
 args = {
-    'root'      : '/home/user/name/Projects/',
-    'data_path' : 'dataset/data dir(your own data path)/',
+    'root'      : 'C:/muni/DP/CS2Net/CS-Net',
+    'data_path' : 'C:/muni/DP/Drive_dataset',
     'epochs'    : 200,
     'lr'        : 0.0001,
     'snapshot'  : 100,
